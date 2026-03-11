@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p \"/Users/apple/Documents/gitHub/PlanTasks/Domain/Errors\")",
+      "Bash(mkdir -p \"/Users/apple/Documents/gitHub/PlanTasks/Core\")",
+      "Bash(mkdir -p \"/Users/apple/Documents/gitHub/PlanTasks/Stores/Protocols\")",
+      "Bash(mkdir -p \"/Users/apple/Documents/gitHub/PlanTasks/Stores/Mock\")",
+      "Bash(mkdir -p \"/Users/apple/Documents/gitHub/PlanTasks/Extensions/View\")",
+      "Bash(mkdir -p \"/Users/apple/Documents/gitHub/PlanTasks/Colors.xcassets\")",
+      "Bash(python3:*)",
+      "Bash(mkdir -p \"/Users/apple/Documents/gitHub/PlanTasks/PlanTasks/Domain/Errors\")",
+      "Bash(mkdir -p \"/Users/apple/Documents/gitHub/PlanTasks/PlanTasks/Core\")",
+      "Bash(mkdir -p \"/Users/apple/Documents/gitHub/PlanTasks/PlanTasks/Stores/Protocols\")",
+      "Bash(mkdir -p \"/Users/apple/Documents/gitHub/PlanTasks/PlanTasks/Stores/Mock\")",
+      "Bash(mkdir -p \"/Users/apple/Documents/gitHub/PlanTasks/PlanTasks/Extensions/View\")",
+      "Bash(mkdir -p \"/Users/apple/Documents/gitHub/PlanTasks/PlanTasks/Colors.xcassets\")",
+      "Bash(mkdir -p \"/Users/apple/Documents/gitHub/PlanTasks/PlanTasks/PlanTasks/Domain/Errors\")",
+      "Bash(mkdir -p \"/Users/apple/Documents/gitHub/PlanTasks/PlanTasks/PlanTasks/Core\")",
+      "Bash(mkdir -p \"/Users/apple/Documents/gitHub/PlanTasks/PlanTasks/PlanTasks/Stores/Protocols\")",
+      "Bash(mkdir -p \"/Users/apple/Documents/gitHub/PlanTasks/PlanTasks/PlanTasks/Stores/Mock\")",
+      "Bash(mkdir -p \"/Users/apple/Documents/gitHub/PlanTasks/PlanTasks/PlanTasks/Extensions/View\")",
+      "Bash(mkdir -p \"/Users/apple/Documents/gitHub/PlanTasks/PlanTasks/PlanTasks/Colors.xcassets\")"
+    ]
+  }
+}

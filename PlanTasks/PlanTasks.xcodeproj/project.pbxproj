@@ -6,12 +6,17 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		18E993222F6168E6006226DB /* Factory in Frameworks */ = {isa = PBXBuildFile; productRef = 18E993212F6168E6006226DB /* Factory */; };
+		18E993242F6168E6006226DB /* FactoryKit in Frameworks */ = {isa = PBXBuildFile; productRef = 18E993232F6168E6006226DB /* FactoryKit */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
-		18628C5D2F60B2CF00692B39 /* PlanTasks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlanTasks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E992D62F6161BC006226DB /* PlanTasks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlanTasks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		18628C5F2F60B2CF00692B39 /* PlanTasks */ = {
+		18E992D82F6161BC006226DB /* PlanTasks */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = PlanTasks;
 			sourceTree = "<group>";
@@ -19,28 +24,30 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		18628C5A2F60B2CF00692B39 /* Frameworks */ = {
+		18E992D32F6161BC006226DB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18E993242F6168E6006226DB /* FactoryKit in Frameworks */,
+				18E993222F6168E6006226DB /* Factory in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		18628C542F60B2CF00692B39 = {
+		18E992CD2F6161BC006226DB = {
 			isa = PBXGroup;
 			children = (
-				18628C5F2F60B2CF00692B39 /* PlanTasks */,
-				18628C5E2F60B2CF00692B39 /* Products */,
+				18E992D82F6161BC006226DB /* PlanTasks */,
+				18E992D72F6161BC006226DB /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		18628C5E2F60B2CF00692B39 /* Products */ = {
+		18E992D72F6161BC006226DB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				18628C5D2F60B2CF00692B39 /* PlanTasks.app */,
+				18E992D62F6161BC006226DB /* PlanTasks.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,64 +55,69 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		18628C5C2F60B2CF00692B39 /* PlanTasks */ = {
+		18E992D52F6161BC006226DB /* PlanTasks */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 18628C682F60B2D100692B39 /* Build configuration list for PBXNativeTarget "PlanTasks" */;
+			buildConfigurationList = 18E992E12F6161BE006226DB /* Build configuration list for PBXNativeTarget "PlanTasks" */;
 			buildPhases = (
-				18628C592F60B2CF00692B39 /* Sources */,
-				18628C5A2F60B2CF00692B39 /* Frameworks */,
-				18628C5B2F60B2CF00692B39 /* Resources */,
+				18E992D22F6161BC006226DB /* Sources */,
+				18E992D32F6161BC006226DB /* Frameworks */,
+				18E992D42F6161BC006226DB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				18628C5F2F60B2CF00692B39 /* PlanTasks */,
+				18E992D82F6161BC006226DB /* PlanTasks */,
 			);
 			name = PlanTasks;
 			packageProductDependencies = (
+				18E993212F6168E6006226DB /* Factory */,
+				18E993232F6168E6006226DB /* FactoryKit */,
 			);
 			productName = PlanTasks;
-			productReference = 18628C5D2F60B2CF00692B39 /* PlanTasks.app */;
+			productReference = 18E992D62F6161BC006226DB /* PlanTasks.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		18628C552F60B2CF00692B39 /* Project object */ = {
+		18E992CE2F6161BC006226DB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 2620;
 				LastUpgradeCheck = 2620;
 				TargetAttributes = {
-					18628C5C2F60B2CF00692B39 = {
+					18E992D52F6161BC006226DB = {
 						CreatedOnToolsVersion = 26.2;
 					};
 				};
 			};
-			buildConfigurationList = 18628C582F60B2CF00692B39 /* Build configuration list for PBXProject "PlanTasks" */;
+			buildConfigurationList = 18E992D12F6161BC006226DB /* Build configuration list for PBXProject "PlanTasks" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 18628C542F60B2CF00692B39;
+			mainGroup = 18E992CD2F6161BC006226DB;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				18E993202F6168E6006226DB /* XCRemoteSwiftPackageReference "Factory" */,
+			);
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 18628C5E2F60B2CF00692B39 /* Products */;
+			productRefGroup = 18E992D72F6161BC006226DB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				18628C5C2F60B2CF00692B39 /* PlanTasks */,
+				18E992D52F6161BC006226DB /* PlanTasks */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		18628C5B2F60B2CF00692B39 /* Resources */ = {
+		18E992D42F6161BC006226DB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -115,7 +127,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		18628C592F60B2CF00692B39 /* Sources */ = {
+		18E992D22F6161BC006226DB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -125,7 +137,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		18628C662F60B2D100692B39 /* Debug */ = {
+		18E992DF2F6161BE006226DB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -189,7 +201,7 @@
 			};
 			name = Debug;
 		};
-		18628C672F60B2D100692B39 /* Release */ = {
+		18E992E02F6161BE006226DB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -246,7 +258,7 @@
 			};
 			name = Release;
 		};
-		18628C692F60B2D100692B39 /* Debug */ = {
+		18E992E22F6161BE006226DB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -278,7 +290,7 @@
 			};
 			name = Debug;
 		};
-		18628C6A2F60B2D100692B39 /* Release */ = {
+		18E992E32F6161BE006226DB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -313,25 +325,49 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		18628C582F60B2CF00692B39 /* Build configuration list for PBXProject "PlanTasks" */ = {
+		18E992D12F6161BC006226DB /* Build configuration list for PBXProject "PlanTasks" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				18628C662F60B2D100692B39 /* Debug */,
-				18628C672F60B2D100692B39 /* Release */,
+				18E992DF2F6161BE006226DB /* Debug */,
+				18E992E02F6161BE006226DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		18628C682F60B2D100692B39 /* Build configuration list for PBXNativeTarget "PlanTasks" */ = {
+		18E992E12F6161BE006226DB /* Build configuration list for PBXNativeTarget "PlanTasks" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				18628C692F60B2D100692B39 /* Debug */,
-				18628C6A2F60B2D100692B39 /* Release */,
+				18E992E22F6161BE006226DB /* Debug */,
+				18E992E32F6161BE006226DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		18E993202F6168E6006226DB /* XCRemoteSwiftPackageReference "Factory" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hmlongco/Factory";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.5.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		18E993212F6168E6006226DB /* Factory */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 18E993202F6168E6006226DB /* XCRemoteSwiftPackageReference "Factory" */;
+			productName = Factory;
+		};
+		18E993232F6168E6006226DB /* FactoryKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 18E993202F6168E6006226DB /* XCRemoteSwiftPackageReference "Factory" */;
+			productName = FactoryKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = 18628C552F60B2CF00692B39 /* Project object */;
+	rootObject = 18E992CE2F6161BC006226DB /* Project object */;
 }
